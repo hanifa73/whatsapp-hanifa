@@ -20,11 +20,22 @@
     "windows-build-tools": "^5.2.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    // "start": "react-scripts start",
+    // "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+   
+    "start": "node index.js",
+  "build": "webpack"
+}
   },
+  {
+  "name": "whatsapp-hanifa",
+  "description": "a really cool app",
+  
+    "node":" >=14.x"
+  }
+}
   "eslintConfig": {
     "extends": [
       "react-app",
